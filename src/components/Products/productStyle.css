@@ -1,0 +1,31 @@
+/* Products.css */
+
+.products-container {
+  padding: 20px;
+}
+
+.filters-section h4 {
+  margin-bottom: 20px;
+}
+
+.filters-section .form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.filters-section .form-select {
+  width: 100%;
+}
+
+.products-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 100px;
+  height: 4px;
+  background-color: #ffc800;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}

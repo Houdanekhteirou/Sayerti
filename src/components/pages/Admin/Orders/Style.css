@@ -1,0 +1,53 @@
+.custom-modal .modal-content {
+  background-color: #1a4b33;
+  color: white;
+}
+.badge-shipped {
+  background-color: #1a4b33 !important; /* Couleur violette pour le statut "Expédié" */
+  color: white;
+}
+
+.badge-delivered {
+  background-color: #00bf63 !important; /* Couleur violette pour le statut "Livré" */
+  color: white;
+}
+
+.badge-pending {
+  background-color: #00bf63 !important; /* Couleur violette pour le statut "En attente" */
+  color: white;
+}
+
+.custom-modal-header {
+  background-color: #1a4b33;
+  border-bottom: 1px solid #1a4b33; 
+}
+
+.custom-modal-body {
+  background-color: #1a4b33;
+  color: white;
+}
+
+.custom-modal-footer {
+  background-color: #1a4b33;
+  border-top: 1px solid #1a4b33;
+}
+
+.btn-primary {
+  background-color: #1a4b33;
+  border-color: #1a4b33;
+}
+
+.btn-primary:hover {
+  background-color: rgb(237, 235, 237);
+  border-color: rgb(235, 235, 235);
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}

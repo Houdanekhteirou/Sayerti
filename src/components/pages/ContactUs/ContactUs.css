@@ -1,0 +1,27 @@
+.contact-us-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .contact-us-header {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .contact-us-section {
+    margin-bottom: 20px;
+  }
+  
+  .rtl {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  .ltr {
+    direction: ltr;
+    text-align: left;
+  }
+  

@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+
+.btn-primary {
+  background-color: purple;
+  border-color: purple;
+}
+
+.btn-primary:hover {
+  background-color: darkviolet;
+  border-color: darkviolet;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.table-wrapper {
+  min-width: 100%;
+}
+
+.table {
+  background-color: #fff;
+  border-color: purple;
+}
+
+.table thead th {
+  background-color: purple;
+  color: white;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: rgba(128, 0, 128, 0.1); /* Violet clair pour les lignes paires */
+}
+
+.table tbody tr:hover {
+  background-color: rgba(128, 0, 128, 0.2); /* Violet un peu plus foncé au survol */
+}
+
+.pagination .page-link {
+  color: purple;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: purple;
+  border-color: purple;
+}

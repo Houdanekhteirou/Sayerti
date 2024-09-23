@@ -1,0 +1,79 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card-title {
+  color: #1a4b33;
+}
+
+.card {
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.form-control {
+  border-radius: 0.25rem;
+}
+.required-field {
+  color: red;
+  margin-left: 3px;
+}
+
+.btn-primary {
+  background-color: #1a4b33;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.btn-primary:hover {
+  background-color: #00bf63;
+}
+
+.image-preview img {
+  max-height: 200px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the popup modal */
+.modal-header {
+  background-color: #00bf63;
+  color: #fff;
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-content {
+  border-radius: 0.5rem;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.modal-category {
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.modal-category select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+.modal-category label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.modal-category select:focus {
+  border-color: #1a4b33;
+  box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25);
+}

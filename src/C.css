@@ -1,0 +1,22 @@
+
+
+.cart-summary {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.cart-summary p {
+  margin: 0 0 10px;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+/* .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */

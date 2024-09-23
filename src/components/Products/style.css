@@ -1,0 +1,16 @@
+.button-custom {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+    height: 50px;
+    background-color: violet;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button-custom:hover,
+  .button-custom:focus {
+    background-color: darkviolet;
+    color: white;
+  }
+  

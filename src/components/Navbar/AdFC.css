@@ -1,0 +1,73 @@
+#navbar {
+  background-color: #563d7c; /* Change the background color as needed */
+}
+
+#logo {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  color: #fff; /* Logo text color */
+}
+
+#span1 {
+  color: #ffdd57; /* Highlighted part of the logo */
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #ffdd57 !important;
+}
+
+.btn-primary {
+  background-color: #ffdd57;
+  border-color: #ffdd57;
+}
+
+.btn-primary:hover {
+  background-color: #ffbb33;
+  border-color: #ffbb33;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 992px) {
+  .navbar-nav .nav-link {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .filter-section, .products-section {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust other styles for responsiveness */
+}
+
+[dir="rtl"] .navbar-nav .nav-link {
+  text-align: right;
+}
+
+[dir="rtl"] .navbar-toggler {
+  margin-right: 0;
+}
+
+[dir="rtl"] .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M26 4l-8 8-8-8'/%3E%3C/svg%3E");
+}
+
+/* Adjust other styles for RTL direction */
+

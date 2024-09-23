@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  background-color: #343a40; /* Couleur de fond */
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
